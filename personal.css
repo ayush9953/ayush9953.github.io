@@ -44,11 +44,11 @@ img{
 .right{
     position: relative;
     display: inline-block;
-    margin: 42px;
+    margin: 30px;
     left: 30px;
     width: 50%;
     font-size: 1.5vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
@@ -85,10 +85,11 @@ p,h3,li{
 @media (max-width: 300px){
     .right, .left, .frame img{
         width: 100%;
-       
+        
     }
     .frame{
         width: 100%;
+        height: max-content;
         
     }
      p,h1,h3{

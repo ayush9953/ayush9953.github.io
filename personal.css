@@ -10,7 +10,7 @@
 
 .frame{
     width: 85%;
-    height: auto;
+    height: max-content;
     background-color: white;
     position: relative;
     border-radius: 50px;
@@ -54,7 +54,7 @@ img{
 }
 p,h3,li{
    
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     
     padding: 5px;
     text-align: justify;

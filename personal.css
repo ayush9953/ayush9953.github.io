@@ -1,0 +1,112 @@
+.container{
+    width:100%;
+    height: 600px;
+    background-image: linear-gradient(violet,aqua);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.frame{
+    width: 85%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    border-radius: 50px;
+    top: 100px;
+    box-shadow: 3px 3px 15px 15px grey;
+    display: inline;
+    
+}
+img{
+    padding: 20px;
+    border-radius: 35px;
+    width: 100%;
+}
+.hello{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 5%;
+    
+}
+.description{
+    position: relative;
+    top: 10px;
+    
+    display: inline-block;
+}
+.left{
+    position: relative;
+    float: left;
+    width: 30%;
+}
+.right{
+    position: relative;
+    display: inline-block;
+    margin: 42px;
+    left: 30px;
+    width: 50%;
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+p,h3,li{
+   
+    font-size: 1.1vw;
+    
+    padding: 5px;
+    text-align: justify;
+    width: inherit;
+
+    
+    
+}
+.left h1{
+    font-size: 2vw;
+}
+.right ul{
+    font-size: 15px;
+    font-weight: bold;
+}
+.certificate{
+    position: relative;
+    float: right;
+    width: 50%;
+}
+.skill{
+    position: relative;
+    float: left;
+    width:50%;
+
+
+}
+@media (max-width: 300px){
+    .right, .left, .frame img{
+        width: 100%;
+        height: inherit;
+    }
+    .frame{
+        width: 100%;
+        height: auto;
+    }
+     p,h1,h3{
+        width:100%;
+        font-size: 1.5vw;
+    }
+    .right ul{
+        width: 100%;
+        height: inherit;
+        font-size: 1.5vw;
+
+    }
+    .right b{
+        width: 100%;
+        height: auto;
+        font-size: 1.5vw;
+    }
+    
+    
+}
+

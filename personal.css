@@ -10,7 +10,7 @@
 
 .frame{
     width: 85%;
-    height: 600px;
+    height: auto;
     background-color: white;
     position: relative;
     border-radius: 50px;
@@ -44,21 +44,27 @@ img{
 .right{
     position: relative;
     display: inline-block;
-    margin: 50px;
+    margin: 42px;
     left: 30px;
     width: 50%;
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
-.right b{
+p,h3,li{
    
-    font-size: 20px;
+    font-size: 1.1vw;
     
     padding: 5px;
     text-align: justify;
     width: inherit;
+
     
     
+}
+.left h1{
+    font-size: 2vw;
 }
 .right ul{
     font-size: 15px;
@@ -76,24 +82,31 @@ img{
 
 
 }
-@media (max-width: 400px){
+@media (max-width: 300px){
     .right, .left, .frame img{
         width: 100%;
+        height: inherit;
     }
     .frame{
         width: 100%;
         height: auto;
     }
-    .left p{
+     p,h1,h3{
         width:100%;
+        font-size: 1.5vw;
     }
     .right ul{
         width: 100%;
+        height: inherit;
+        font-size: 1.5vw;
 
     }
     .right b{
         width: 100%;
+        height: auto;
+        font-size: 1.5vw;
     }
+    
     
 }
 

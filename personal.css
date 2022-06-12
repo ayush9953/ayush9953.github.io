@@ -1,113 +1,100 @@
-.container{
-    width:100%;
-    height: 600px;
-    background-image: linear-gradient(violet,aqua);
+*{
+    margin: 0%;
+}
+body{
+    width: 100%;
+     height: 700px;
     position: relative;
     display: flex;
-    justify-content: center;
+
+    justify-content:center ;
+    align-items: center;
+
+    
 }
-
-
-.frame{
-    width: 85%;
-    height: max-content;
-    background-color: white;
+.biodata{
+    
+    height: 330px;
+    width: 60%;
+   
     position: relative;
-    border-radius: 50px;
-    top: 100px;
-    box-shadow: 3px 3px 15px 15px grey;
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#data{
+    width: inherit;
+    border-top: 2px gray solid;
+    border-bottom: 2px gray solid;
+    
+    
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50%;
+    
+   
+
+}
+.name{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.role{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border-top: 2px black solid;
+    
     
 }
 img{
-    padding: 20px;
-    border-radius: 35px;
-    width: 100%;
-}
-.hello{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    left: 5%;
-    
-}
-.description{
-    position: relative;
-    top: 10px;
-    
-    display: inline-block;
-}
-.left{
-    position: relative;
-    float: left;
-    width: 30%;
-}
-.right{
-    position: relative;
-    display: inline-block;
-    margin: 30px;
-    left: 30px;
-    width: 50%;
-    font-size: 1.5vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
-}
-p,h3,li{
-   
-    font-size: 1.5vw;
-    
+    border-radius: 50%;
     padding: 5px;
-    text-align: justify;
+}
+#Home{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 20px;
+    margin: 20px;
+}
+#About{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 20px;
+    margin: 20px;
+}
+.icon{
+    display: inline;
+}
+.fa-brands{
+    font-size: 30px;
+    padding: 20px;
+}
+.fa-brands:hover{
+    color: blue;
+}
+#data2{
     width: inherit;
-
+    height: 300px;
+    border-top: 2px gray solid;
+    border-bottom: 2px gray solid;
     
-    
-}
-.left h1{
-    font-size: 2vw;
-}
-.right ul{
-    font-size: 15px;
-    font-weight: bold;
-}
-.certificate{
-    position: relative;
-    float: right;
-    width: 50%;
-}
-.skill{
-    position: relative;
-    float: left;
-    width:50%;
-
-
-}
-@media (max-width: 300px){
-    .right, .left, .frame img{
-        width: 100%;
-        
-    }
-    .frame{
-        width: 100%;
-        height: max-content;
-        
-    }
-     p,h1,h3{
-        width:100%;
-        font-size: 1.5vw;
-    }
-    .right ul{
-        width: 100%;
-        height: inherit;
-        font-size: 1.5vw;
-
-    }
-    .right b{
-        width: 100%;
-        height: auto;
-        font-size: 1.5vw;
-    }
-    
+    position: absolute;
+    top: 90px;
+    visibility:hidden;
+    font-size: 20px;
     
 }
-
+h3{
+    color: darkblue;
+}
+li{
+    color: navy;
+}

@@ -4,39 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Rawat</title>
-    <link rel="stylesheet" href="personal.css"/>
-    <link rel="icon" href="user.png"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="newintro.css"/>
+    <script src="https://kit.fontawesome.com/e6483814a9.js" crossorigin="anonymous"></script>
+    <script>
+        
+     function text(){
+        var a=document.getElementById("data");
+        var b=document.getElementById("data2");
+    a.style.visibility= "hidden";
+    b.style.visibility="visible";
+     }
+
+    function text2(){
+        var a=document.getElementById("data");
+        var b=document.getElementById("data2");
+    b.style.visibility= "hidden";
+    a.style.visibility="visible";
+    
+}
+    </script>
 </head>
 <body>
-    
-    <div class="container">
-        
-        
-        <div class="frame">
-            <div class="left">
-            <img src="myimg.jpg" alt="photo"/>
+    <div class="biodata">
+        <div>
+            <button id="Home" onclick="text2()">Home</button>
+            <button id="About" onclick="text()">About</button>
+        </div>
+        <div id="data">
+            <center>
+            <img src="mypic.jpg" alt="photo"/>
+            <p class="name">AYUSH RAWAT</p><br>
+            <div>
+            <p class="role" >Full Stack Developer</p>
+            </center>
             
-            <div class="hello">
-                <h3> Hello everyone, I am</h3>
-                <h1>AYUSH <br>RAWAT</h1>
-             </div>
-            </div>
-            <div class="right">
-               <b>I am a graduate in BSc(H) Computer Science.
-                During my degree, I have developed an
-                excellent eye for detail, due to the heavy
-                demands of assignments and research.
-                As a result, I am also able to work under
-                pressure. Having good communication
-                skills, hardworking and significant ability
-                to perform well in team environments. </b>
-                <p>Phone: +91 8287015823</p>
-                <p>@: ayushrawat070@gmail.com</p>
-                <p>Linkedin: <a href="https://www.linkedin.com/in/ayush-rawat-4b77841a4">ayushrawat</a></p>
-                <p>DOB: 14 June 2001</p>
-                <div>
-                    <div class="skill">
+        </div>
+        <div class="icon">
+        <a href="https://github.com/ayush9953"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ayush-rawat-4b77841a4"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div id="data2">
+            <center>
+                <b >I am a graduate in BSc(H) Computer Science.
+                    During my degree, I have developed an
+                    excellent eye for detail, due to the heavy
+                    demands of assignments and research.
+                    As a result, I am also able to work under
+                    pressure. Having good communication
+                    skills, hardworking and significant ability
+                    to perform well in team environments.</b>
+                </center>
                 <h3>Skills</h3>
                 <ul>
                     <li>Java</li>
@@ -45,24 +63,9 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                </div>
-                <div class="certificate">
-                    <h3>Certificate</h3>
-                    <ul>
-                        <li>SQL Master Class from UDEMY</li>
-                        <li>Full Stack Developement from Newton School</li>
-                        <li>DBMS from Newton School</li>
-                    </ul>
-
-                </div>
-
-                </div>
-
-            </div>
-
+            
+            
         </div>
-        
     </div>
-    
 </body>
 </html>
